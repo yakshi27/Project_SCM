@@ -1,7 +1,4 @@
 body, html {
-    margin: 100px;
-    margin-left: 150px;
-    margin-right: 150px;
     padding: 10px;
     font-family: 'Arial', sans-serif;
     background-image: linear-gradient(135deg, #2980B9 0%, #6DD5FA 100%); 
