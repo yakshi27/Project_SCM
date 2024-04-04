@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #FF6B6B, #FF9770); /* Gradient background */
+    background: linear-gradient(to right, #4f3434, #756863); /* Gradient background */
     height: 100%;
 }
 
@@ -52,7 +52,7 @@ input[type="password"]:hover {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #FF6B6B;
+    background-color: #4f4949;
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -62,6 +62,6 @@ button {
     transition: background-color 0.3s, transform 0.3s; 
 
 button:hover {
-    background-color: #FF9770;
+    background-color: #2f2825;
     transform: scale(1.05);
 }
