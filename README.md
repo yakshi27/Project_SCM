@@ -17,3 +17,7 @@ Additionally, a personal finance manager has the ability to visualize your finan
 Personal Finance Manager plays an important role in promoting financial literacy and responsibility. 
 Technologies, HTML and CSS are used to simplify personal financial management, individuals can gain enhanced and more considerable control over their finances, make informed decisions as per their financial limitations, and work towards achieving their financial goals.
 
+
+ℹ️ About :
+This website has been developed by the students of G-21 (2023), Chitkara University to help users attain access to personal finance management criteria with a user-friendly interface and easy navigation.
+This project aims to increase one's ability to determine their earning and spending.
