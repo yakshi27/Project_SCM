@@ -6,6 +6,7 @@ These applications typically offer a range of features and functionalities to he
 3. Goal Setting and Planning: Users can set financial goals, such as saving for a vacation, buying a home, or retiring early. The application helps users track progress towards their goals
 4. Debt Management: Users can track outstanding debts, such as loans, credit card balances, and mortgages. The application may offer tools for debt repayment planning, including debt snowball or avalanche methods, and strategies for reducing interest costs.
 5. Reports and Analytics: Users can generate customized reports and visualizations to gain insights into their financial performance, trends, and projections. These reports may include balance sheets, income statements, cash flow statements, and other financial metrics
+6. Investment Portfolio Management: Users can track the performance of their investment portfolios, including stocks, bonds, mutual funds, and other assets. The application may offer tools for portfolio analysis, asset allocation, and performance reporting to help users make informed investment decisions.
 
 
 Overall, a finance manager web application serves as a comprehensive tool for individuals and organizations to take control of their finances, make informed decisions, and work towards achieving their financial goals. By centralizing financial data, automating routine tasks,
