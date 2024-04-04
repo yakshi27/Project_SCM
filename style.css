@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0.2;
+    padding: 0.1;
     border: none;
     outline: none;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ body{
     bottom: 96px;
     width: 240px;
     padding: 0 1.7rem;
-    color: #fff;
+    color: #771c1c;
     overflow: hidden;
     transition: all 0.5s linear;
     background: rgba(113, 99 ,186 , 255);
@@ -150,7 +150,7 @@ header {
 }
 
 .expense-inputs button:hover {
-    background-color: #0056b3;
+    background-color: #5f6266;
 }
 
 .pie-chart {
