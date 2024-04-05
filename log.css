@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #FF6B6B, #FF9770);
+    background: linear-gradient(to right, #b3a4a4, #2e8a7c);
     height: 100%;
 }
 
@@ -17,23 +17,23 @@ body, html {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-    padding: 40px;
+    padding: 50px;
     text-align: center;
     width: 300px;
 }
 
 .login-box h1 {
-    color: #333;
+    color: #852222;
 }
 
 .input-container {
     margin-bottom: 20px;
 }
 
-input[type="text"],
-input[type="password"] {
+input[type=" enter text"],
+input[type="enter password"] {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin: 10px 0;
     border: none;
     border-radius: 25px;
@@ -58,10 +58,10 @@ button {
     border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 18px;
-    transition: background-color 0.3s, transform 0.3s; 
+    font-size: 28px;
+    transition: background-color 0.3s, transform 0.4s; 
 
 button:hover {
-    background-color: #FF9770;
+    background-color: #45356b;
     transform: scale(1.05);
 }
