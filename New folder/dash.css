@@ -3,7 +3,7 @@ body, html {
     margin-left: 100px; /* Reduced margin */
     margin-right: 100px; /* Reduced margin */
     padding: 20px; /* Increased padding */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #4f3a36; /* Dark brown background color */
     color: #333;
 }
