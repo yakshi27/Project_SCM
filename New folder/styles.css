@@ -40,7 +40,7 @@ input[type="password"] {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     font-size: 18px;
-    color: #333;
+    color: #333333;
     transition: transform 0.3s; 
 }
 
@@ -62,6 +62,6 @@ button {
     transition: background-color 0.3s, transform 0.3s; 
 
 button:hover {
-    background-color: #ff70bc;
+    background-color: #ff70a7;
     transform: scale(1.05);
 }
