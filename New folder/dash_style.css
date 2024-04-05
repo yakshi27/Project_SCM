@@ -81,7 +81,7 @@ header {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 5px;
 }
 
@@ -108,7 +108,7 @@ header {
 }
 
 .pie-chart h2 {
-    color: #333;
+    color: #333333;
     margin-bottom: 10px;
 }
 
@@ -122,7 +122,7 @@ header {
         #6b7aff 0% calc((500 / 1500) * 100%),
         #fff370 calc((500 / 1500) * 100%) calc(((500 + 300) / 1500) * 100%),
         #FFC154 calc(((500 + 300) / 1500) * 100%) calc(((500 + 300 + 100) / 1500) * 100%),
-        #ff6b75 calc(((500 + 300 + 100) / 1500) * 100%) calc(((500 + 300 + 100 + 200) / 1500) * 100%),
+        #6bff7c calc(((500 + 300 + 100) / 1500) * 100%) calc(((500 + 300 + 100 + 200) / 1500) * 100%),
         #9a6bff calc(((500 + 300 + 100 + 200) / 1500) * 100%) 100%
     );
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
