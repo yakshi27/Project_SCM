@@ -120,7 +120,7 @@ header {
     margin: 0 auto;
     background: conic-gradient(
         #6b7aff 0% calc((500 / 1500) * 100%),
-        #fff370 calc((500 / 1500) * 100%) calc(((500 + 300) / 1500) * 100%),
+        #70ffec calc((500 / 1500) * 100%) calc(((500 + 300) / 1500) * 100%),
         #FFC154 calc(((500 + 300) / 1500) * 100%) calc(((500 + 300 + 100) / 1500) * 100%),
         #6bff7c calc(((500 + 300 + 100) / 1500) * 100%) calc(((500 + 300 + 100 + 200) / 1500) * 100%),
         #9a6bff calc(((500 + 300 + 100 + 200) / 1500) * 100%) 100%
@@ -166,7 +166,7 @@ header {
 
 .groceries .fill {
     transform: rotate(calc(((500 + 300) / 1500) * 360deg));
-    background-color: #FF9770;
+    background-color: #deff70;
 }
 
 .personal-care .fill {
