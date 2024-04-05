@@ -1,5 +1,5 @@
 Finance manager web application : It is basically a digital tool designed to assist individuals or organizations in managing various aspects of their finances through an online platform.
-These applications typically offer a range of features and functionalities to help users effectively plan, track, and optimize their financial activities. Some key components are:
+These applications typically offer a range of features and functionalities to help users effectively plan, track, and optimize their financial activities. Some of the key points are:
 
 1. User Authentication and Security: Finance manager web applications typically require users to create accounts and log in securely to access their financial data. They often employ encryption and other security measures to protect sensitive information
 2. Dashboard: The dashboard serves as the central hub where users can view an overview of their financial health at a glance. It may include summaries of income, expenses, investments, savings goals, and other relevant metrics.
@@ -14,3 +14,5 @@ and providing actionable insights, these applications empower users to manage th
 
 This website has been developed by  student's of G-21, Chitkara University,  to help users attain access to personal finance management criteria with a user-friendly interface and easy navigation.
 This project aims to increase one's ability to determine their earning and spending.
+
+
