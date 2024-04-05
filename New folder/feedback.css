@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #d8bdb8; /* Elegant brownish background color */
+    background-color: #382f2e; /* Elegant brownish background color */
     color: #fff; /* White text color */
 }
 
@@ -11,7 +11,7 @@ body, html {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(59, 52, 52, 0.1); /* Semi-transparent white background */
+    background-color: rgba(100, 85, 85, 0); /* Semi-transparent white background */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(92, 87, 87, 0.2); /* Shadow effect */
 }
