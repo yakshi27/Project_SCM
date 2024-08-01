@@ -1,0 +1,187 @@
+body, html {
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(135deg, #2980B9 0%, #6DD5FA 100%); 
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    border-bottom: 4px solid #0056b3; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-panel {
+    flex: 1;
+    padding: 20px;
+}
+
+.expenses {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.expenses h2 {
+    color: #333;
+}
+
+.expenses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expenses li {
+    margin-bottom: 10px;
+}
+
+.expense-inputs {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.expense-inputs h2 {
+    color: #333;
+}
+
+.expense-inputs label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.expense-inputs input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.expense-inputs button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.expense-inputs button:hover {
+    background-color: #0056b3;
+}
+
+.pie-chart {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.pie-chart h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.chart {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: conic-gradient(
+        #FF6B6B 0% calc((500 / 1500) * 100%),
+        #FF9770 calc((500 / 1500) * 100%) calc(((500 + 300) / 1500) * 100%),
+        #FFC154 calc(((500 + 300) / 1500) * 100%) calc(((500 + 300 + 100) / 1500) * 100%),
+        #6BFF7F calc(((500 + 300 + 100) / 1500) * 100%) calc(((500 + 300 + 100 + 200) / 1500) * 100%),
+        #6B9BFF calc(((500 + 300 + 100 + 200) / 1500) * 100%) 100%
+    );
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+
+.slice {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+    transform-origin: 50% 50%;
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.slice span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.fill {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+    transform-origin: 50% 50%;
+    transform: rotate(0deg);
+    background-color: #007BFF;
+    transition: transform 0.1s ease-in-out;
+}
+
+.healthcare .fill {
+    transform: rotate(calc((500 / 1500) * 360deg));
+    background-color: #FF6B6B;
+}
+
+.groceries .fill {
+    transform: rotate(calc(((500 + 300) / 1500) * 360deg));
+    background-color: #FF9770;
+}
+
+.personal-care .fill {
+    transform: rotate(calc(((500 + 300 + 100) / 1500) * 360deg));
+    background-color: #FFC154;
+}
+
+.transportation .fill {
+    transform: rotate(calc(((500 + 300 + 100 + 200) / 1500) * 360deg));
+    background-color: #6BFF7F;
+}
+
+.savings .fill {
+    transform: rotate(360deg);
+    background-color: #6B9BFF;
+}
+
+.slice:hover .fill {
+    transform: scale(1.1);
+}

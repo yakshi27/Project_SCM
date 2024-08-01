@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Manager</title>
+    <link rel="stylesheet" href="dash_style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Finance Manager Dashboard</h1>
+        <p>Track your expenses</p>
+    </header>
+
+    <section class="expenses">
+        <h2>Expenses</h2>
+        <ul>
+            <li><strong>Healthcare:</strong> $<span id="healthcare">500</span></li>
+            <li><strong>Groceries:</strong> $<span id="groceries">300</span></li>
+            <li><strong>Personal Care:</strong> $<span id="personal-care">100</span></li>
+            <li><strong>Transportation:</strong> $<span id="transportation">200</span></li>
+            <li><strong>Savings:</strong> $<span id="savings">400</span></li>
+        </ul>
+    </section>
+
+    <section class="expense-inputs">
+        <h2>Add New Expenses</h2>
+        <form id="expenseForm">
+            <div class="input-container">
+                <label for="healthcare">Healthcare:</label>
+                <input type="number" id="healthcare" placeholder="Enter amount" required>
+            </div>
+            <div class="input-container">
+                <label for="groceries">Groceries:</label>
+                <input type="number" id="groceries" placeholder="Enter amount" required>
+            </div>
+            <div class="input-container">
+                <label for="personal-care">Personal Care:</label>
+                <input type="number" id="personal-care" placeholder="Enter amount" required>
+            </div>
+            <div class="input-container">
+                <label for="transportation">Transportation:</label>
+                <input type="number" id="transportation" placeholder="Enter amount" required>
+            </div>
+            <div class="input-container">
+                <label for="savings">Savings:</label>
+                <input type="number" id="savings" placeholder="Enter amount" required>
+            </div>
+            <button type="submit">Add Expenses</button>
+        </form>
+    </section>
+
+    <section class="pie-chart">
+        <h2>Expense Breakdown</h2>
+        <div class="chart">
+            <div class="slice healthcare">
+                <span>Healthcare</span>
+                <div class="fill"></div>
+            </div>
+            <div class="slice groceries">
+                <span>Groceries</span>
+                <div class="fill"></div>
+            </div>
+            <div class="slice personal-care">
+                <span>Personal Care</span>
+                <div class="fill"></div>
+            </div>
+            <div class="slice transportation">
+                <span>Transportation</span>
+                <div class="fill"></div>
+            </div>
+            <div class="slice savings">
+                <span>Savings</span>
+                <div class="fill"></div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
